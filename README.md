@@ -22,6 +22,7 @@ Zenoh is designed to provide a unified abstraction for pub/sub, query/reply, and
 - [Data Flow Programming](#data-flow-programming)
 - [Autoware](#autoware)
 - [Eclipse SDV](#eclipse-sdv)
+- [Web of Things](#web-of-things)
 - [Tutorials & Examples](#tutorials-and-examples)
 - [Talks & Articles](#talks-and-articles)
 - [Community Projects](#community-projects)
@@ -144,6 +145,11 @@ Zenoh is designed to provide a unified abstraction for pub/sub, query/reply, and
   - [`up-transport-zenoh-cpp`](https://github.com/eclipse-uprotocol/up-transport-zenoh-cpp) - C++ implementation.
 - [`fleet-management`](https://github.com/eclipse-sdv-blueprints/fleet-management) - A close to real-life showcase for truck fleet management where trucks run an SDV software stack so that logistics fleet operators can manage apps, data and services for a diverse set of vehicles.
 - [`service-to-signal`](https://github.com/eclipse-sdv-blueprints/service-to-signal) - The blueprint showcases how to use the Eclipse uProtocol to make a vehicle service available in a vehicle network and connect the service implementation with potential physical hardware
+
+---
+
+## Web of Things
+- [NEPHELE](https://gitlab.eclipse.org/eclipse-research-labs/nephele-project/vo-wot) - A lightweight software stack and synergetic meta-orchestration framework for the next generation compute continuum.
 
 ---
 
