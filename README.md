@@ -67,8 +67,8 @@ Zenoh is designed to provide a unified abstraction for pub/sub, query/reply, and
 ---
 
 ## Tools
-
 - [`wireshark`](https://github.com/eclipse-zenoh/zenoh-dissector) - Zenoh protocol dissector for Wireshark.
+- [`zenoh-explorer`](https://github.com/dad-io/zenoh-explorer) - A full-featured native GUI application for exploring, debugging, and monitoring Zenoh networks; acts as a Zenoh Peer or Zenoh Client.
 - [`zenoh-hammer`](https://github.com/sanri/zenoh-hammer) - Zenoh ui tool. Convenient for simple zenoh network communication testing.
 
 ---
