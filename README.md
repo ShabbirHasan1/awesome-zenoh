@@ -71,6 +71,7 @@ Zenoh is designed to provide a unified abstraction for pub/sub, query/reply, and
 - [`wireshark`](https://github.com/eclipse-zenoh/zenoh-dissector) - Zenoh protocol dissector for Wireshark.
 - [`zenoh-explorer`](https://github.com/dad-io/zenoh-explorer) - A full-featured native GUI application for exploring, debugging, and monitoring Zenoh networks; built in Rust and supports Zenoh Peer or Zenoh Client modes.
 - [`zenoh-hammer`](https://github.com/sanri/zenoh-hammer) - Zenoh ui tool. Convenient for simple zenoh network communication testing.
+- [`zenoh-mls`](https://codeberg.org/permian/zenoh-mls) - Experimental library to add end-to-end encryption to Zenoh using [Messaging Layer Security](https://www.rfc-editor.org/rfc/rfc9420.html).
 
 ---
 
