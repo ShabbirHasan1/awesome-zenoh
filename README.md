@@ -34,14 +34,17 @@ Zenoh is designed to provide a unified abstraction for pub/sub, query/reply, and
 
 - 🌐 [Zenoh Website](https://zenoh.io)
 - 🧬 [Zenoh GitHub Organization](https://github.com/eclipse-zenoh)
-- 📘 [Zenoh Documentation](https://zenoh.io/docs/getting-started/first-app/)
+- 📘 [Zenoh Book](https://corsaro.me/en/zenoh/book/)
 - 🎓 [Zenoh Tutorial](https://speakerdeck.com/kydos/collections/zenoh-tutorial)
-
+- 📗 [Zenoh Spec](https://spec.zenoh.io)
+- 📕 [Zenoh Newsletter](https://corsaro.me/en/zenoh/report/)
+  
 ---
 
 ## Protocol Implementations
 
 - [`zenoh`](https://github.com/eclipse-zenoh/zenoh) – Official Rust implementation of Zenoh.
+- [`zenoh`](https://github.com/eclipse-zenoh/zenoh-nostd) – Official Rust no-std no-alloc implementation of Zenoh.
 - [`zenoh-pico`](https://github.com/eclipse-zenoh/zenoh-pico) – Lightweight implementation in C for MCUs and embedded platforms.
 
 ---
@@ -55,6 +58,7 @@ Zenoh is designed to provide a unified abstraction for pub/sub, query/reply, and
 - [`zenoh-cpp`](https://github.com/eclipse-zenoh/zenoh-cpp) – C-bindings for Zenoh Rust and Zenoh-Pico.
 - [`zenoh-ts`](https://github.com/eclipse-zenoh/zenoh-ts) – TypeScript implementation of remote Zenoh API
 - [`zenoh-java`](https://github.com/eclipse-zenoh/zenoh-java) – Java/Kotlin bindings for Zenoh Rust.
+- [`zenoh-go`](https://github.com/eclipse-zenoh/zenoh-go) – GoLang bindings for Zenoh Rust.
 
 ---
 
@@ -69,7 +73,8 @@ Zenoh is designed to provide a unified abstraction for pub/sub, query/reply, and
 
 ## Tools
 - [`sendit!`](https://github.com/dad-io/sendit) - A high-performance, drag-and-drop file transfer tool for local networks. Built on Zenoh in Rust.
-- [`wireshark`](https://github.com/eclipse-zenoh/zenoh-dissector) - Zenoh protocol dissector for Wireshark.
+- [`wireshark-lua`](https://github.com/kydos/zenoh-wireshark) - A user friendly and powerful Zenoh protocol dissector for Wireshark written in Lua.
+- [`wireshark-rust`](https://github.com/eclipse-zenoh/zenoh-dissector) - A native Zenoh protocol dissector for Wireshark.
 - [`zenoh-explorer`](https://github.com/dad-io/zenoh-explorer) - A full-featured native GUI application for exploring, debugging, and monitoring Zenoh networks; built in Rust and supports Zenoh Peer or Zenoh Client modes.
 - [`zenoh-hammer`](https://github.com/sanri/zenoh-hammer) - Zenoh ui tool. Convenient for simple zenoh network communication testing.
 - [`zenoh-mls`](https://codeberg.org/permian/zenoh-mls) - Experimental library to add end-to-end encryption to Zenoh using [Messaging Layer Security](https://www.rfc-editor.org/rfc/rfc9420.html).
